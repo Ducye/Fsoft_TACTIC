@@ -1,0 +1,127 @@
+#__layout, #__nuxt, body, html {
+    height: 100%;
+    font-size: large;
+}
+.register-container{
+    background: #f1f2f6;
+}
+.register-header-box{
+    background-image: url();
+    background-size: cover;
+    background-position: 0;
+    height: 300px;
+    position: relative;
+    padding: 1.6188rem!important;
+}
+.logo-img{
+    background-color: #fff;
+}
+.register-header-box .overlay {
+    position: absolute;
+    background: #BBFEE5;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .9;
+}
+.register-header-box .register-header-logo {
+    padding: 1.6188rem!important;
+}
+.back {
+    background-color: #03FA1C;
+    width: 100px;
+    height:40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+}
+.max-width{
+    max-width: 850px;
+}
+.register-header-box .register-header-description {
+    color: #000000;
+    font-size:larger;
+    text-align: center;
+    padding: 0 3.42rem 3.42rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.content-container{
+    margin: -120px auto 0;
+    overflow: hidden;
+}
+.content-container .policy-box{
+    position: relative;
+    background-color: #fafafa;
+}
+.content-container .policy-box .policy-expand-btn{
+    padding: 1.14rem 3.42rem;
+}
+.content-container .policy-box .btn-policy-expand{
+    font-size: 16px;
+    display: none;
+}
+.content-container .policy-box .show{
+    display: block!important;
+}
+.content-container .policy-box .register-policy{
+    padding: 0 3.42rem;
+}
+.content-container .policy-box .contact-1{
+    margin-right: 3.42rem;
+}
+.phone-icon{
+    position: relative;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn-primary.transparent-1 {
+    background-color: #e5f7ee;
+    border-color: transparent!important;
+    color: #03FA1C;
+}
+button.rounded-circle {
+    width: 31px!important;
+    height: 31px!important;
+}
+.text-primary {
+    color: #03FA1C!important;
+    text-decoration: none!important;
+}
+.content-container .register-form{
+    padding: 1.14rem 3.42rem;
+}
+.content-container .underline{
+    height: 4px;
+    width: 50px;
+    background: #03FA1C;
+    margin: 5px 0 10px;
+    font-size: 16px;
+}
+.content-container .register-form .col-form-label{
+    width: 25%!important;
+    float: left!important;
+}
+label {
+    display: inline-block;
+    /* margin-bottom: .5rem; */
+}
+.content-container .register-form .form-check{
+    display: flex;
+    padding-left: 0;
+    flex-direction: row!important;
+    align-items: center;
+}
+.custom-checkbox {
+    margin-left: 24px;
+    padding: 2px 0;
+    cursor: pointer;
+}
+.text-format{
+    color: #03FA1C!important;
+}

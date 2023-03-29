@@ -1,0 +1,152 @@
+/* Theme Description
+-------------------------------------------------
+
+	  Theme Name:
+	  Author:
+	  Support:
+	  Description:
+	  Version:
+	  
+------------------------------------------------- 
+*/
+
+/* CSS Index
+-------------------------------------------------
+
+	1. Theme default css
+	2. header
+	3. slider
+	4. about-area
+	5. features-box
+	6. department
+	7. team
+	8. video-area
+	9. counter
+	10. footer
+
+-------------------------------------------------
+*/
+
+// Defult
+	@import 'variables';
+	@import 'mixins';
+	@import 'overlay';
+	@import 'common';
+	@import 'color';
+
+
+// Defult Element Page
+	@import 'blog_page';
+	@import 'blog';
+	@import 'contact';
+	@import 'bradcam';
+	@import 'extend';
+	@import 'elements';
+
+
+// Homepage1
+	@import 'headerMenu';
+	@import 'h1-hero';
+	@import 'team';
+	@import 'services_section';
+	@import 'cv-online';
+	@import 'apply-proces';
+	@import 'support-company';
+	@import 'featured-Jobs';
+	@import 'testimonial';
+	@import 'footer';
+
+// inner Page
+	@import 'services';
+	@import 'job_details';
+	@import 'job_listing';
+	@import 'pagination';
+
+/* Slideshow */
+
+#slideshow {
+	background: transparent linear-gradient(90deg, #BBFEE5, #BBFEE5) 0 0 no-repeat padding-box;
+	color: #000;
+	min-height: 100vh
+}
+
+#slideshow .carousel .carousel-indicators [data-bs-target] {
+	background: rgba(177, 231, 201, .8) 0 0 no-repeat padding-box;
+	border-radius: 50%;
+	height: 8px;
+	width: 8px
+}
+
+#slideshow .carousel .carousel-indicators [data-bs-target].active {
+	background: #00b14f 0 0 no-repeat padding-box
+}
+
+#slideshow .carousel {
+	-webkit-animation: slide 10s ease infinite;
+}
+
+#slideshow .carousel-indicators li.active {
+	background-color: #00b14f;
+	border: 2px solid #00b14f
+}
+
+#slideshow .carousel .carousel-indicators [data-bs-target].active {
+	background: #00b14f 0 0 no-repeat padding-box
+}
+
+#slideshow .carousel .carousel-inner {
+	display: flex;
+	height: 100%;
+	padding-top: 130px;
+	text-align: center
+}
+
+#slideshow .carousel .carousel-item .img-top {
+	height: 309px;
+	margin-bottom: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 390px
+}
+
+#slideshow .carousel .carousel-item .carousel-caption .title {
+	color: #212f3f;
+	font-size: 24px;
+	letter-spacing: 0
+}
+
+#slideshow .carousel .carousel-item .carousel-caption .caption {
+	color: rgba(0, 0, 0, .851);
+	font-size: 16px;
+	letter-spacing: 0
+}
+
+.w-100 {
+	width: 100% !important
+}
+
+@-webkit-keyframes slide {
+	20% {
+		margin-left: 0px;
+	}
+
+	30% {
+		margin-left: -728px;
+	}
+
+	50% {
+		margin-left: -728px;
+	}
+
+	60% {
+		margin-left: -1456px;
+	}
+
+	80% {
+		margin-left: -1456px;
+	}
+}
+/* End Slideshow */
+
+
+

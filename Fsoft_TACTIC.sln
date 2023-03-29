@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fsoft_TACTIC", "Fsoft_TACTIC\Fsoft_TACTIC.csproj", "{E4110B24-B853-4D1B-9146-8AF1CE9B9C8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4110B24-B853-4D1B-9146-8AF1CE9B9C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4110B24-B853-4D1B-9146-8AF1CE9B9C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4110B24-B853-4D1B-9146-8AF1CE9B9C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4110B24-B853-4D1B-9146-8AF1CE9B9C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EC60936-BA08-47C9-B406-7232C80A29FC}
+	EndGlobalSection
+EndGlobal
